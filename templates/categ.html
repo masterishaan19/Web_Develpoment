@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<title></title>
+</head>
+<body>
+	<div id="buySell">
+		<div id="mainCategory">
+		    <label id="choose" >CHOOSE A CATEGORY</label>
+		    <label class="chng" onclick="goBack();">CHANGE</label>
+		</div>
+		<form>
+			<div id="1catg"class="catg">
+				<label class="formLab">Floors</label>
+				<br>
+				<input class="fromInp" type="text">
+				<br>
+				<label class="formLab">Bedrooms</label>
+				<br>
+				<input class="fromInp" type="text">
+				<br>
+				<label class="formLab">Bathrooms</label>
+				<br>
+				<input class="fromInp" type="text">
+				<br>
+				<label class="formLab">Area in sq feet</label>
+				<br>
+				<input class="fromInp" type="text">
+				<br>
+				<label class="formLab">Description</label>
+				<br>
+				<textarea class="fromInp" rows='3'></textarea>
+				<br>
+				<input class="fromInp price" type="number" placeholder="Set Price">
+				<input class="sub" type="submit" value="Submit">
+			</div>
+		</form>
+		<form>
+			<div id="2catg"class="catg">
+				<label class="formLab">Brand</label>
+				<br>
+				<input class="fromInp" type="text">
+				<br>
+				<label class="formLab">Model</label>
+				<br>
+				<input class="fromInp" type="text">
+				<br>
+				<label class="formLab">Type</label>
+				<br>
+				<input class="fromInp" type="text">
+				<br>
+				<label class="formLab">Kilometers</label>
+				<br>
+				<input class="fromInp" type="text">
+				<br>
+				<label class="formLab">Description</label>
+				<br>
+				<textarea class="fromInp" rows='3'></textarea>
+				<br>
+				<input class="fromInp price" type="number" placeholder="Set Price">
+				<input class="sub" type="submit" value="Submit">
+			</div>
+		</form>
+		<form>
+			<div id="3catg" class="catg">
+				<label class="formLab">Type</label>
+				<br>
+				<input class="fromInp" type="text">
+				<br>
+				<label class="formLab">How old</label>
+				<br>
+				<input class="fromInp" type="text">
+				<br>
+				<label class="formLab">Polish</label>
+				<br>
+				<input class="fromInp" type="text">
+				<br>
+				<label class="formLab">Wood</label>
+				<br>
+				<input class="fromInp" type="text">
+				<br>
+				<label class="formLab">Description</label>
+				<br>
+				<textarea class="fromInp" rows='3'></textarea>
+				<br>
+				<input class="fromInp price" type="number" placeholder="Set Price">
+				<input class="sub" type="submit" value="Submit">
+			</div>
+		</form>
+		<div id="categories">
+			<div id="cat_1" class="gridItem" onclick="selectCateg(this, 'PPROPERTIES');">
+				<img class="catIcon" src="property.png">
+				<label class="icon">PROPERTIES</label>
+			</div>
+			<div id="cat_2" class="gridItem" onclick="selectCateg(this, 'CARS');">
+				<img class="catIcon" src="cars.png">
+				<label class="icon">CARS</label>
+			</div>
+			<div id="cat_3" class="gridItem" onclick="selectCateg(this, 'FURNITURE');">
+				<img class="catIcon" src="furni.png">
+				<label class="icon">FURNITURE</label>
+			</div>
+			<div id="cat_4" class="gridItem" onclick="selectCateg(this, 'JOBS');">
+				<img class="catIcon" src="job.png">
+				<label class="icon">JOBS</label>
+		    </div>
+			<div id="cat_5" class="gridItem" onclick="selectCateg(this, 'ELECTRONICS & APPLIANCES');">
+                <img class="catIcon" src="electronic.png">
+				<label class="icon">ELECTRONICS &<br> APPLIANCES</label>
+			</div>
+			<div id="cat_6" class="gridItem" onclick="selectCateg(this, 'MOBILES');">
+				<img class="catIcon" src="mobile.png">
+				<label class="icon">MOBILES</label>
+			    </div>
+			<div id="cat_7" class="gridItem" onclick="selectCateg(this, 'BIKES');">
+			    <img class="catIcon" src="bike.png">
+				<label class="icon">BIKES</label>
+			</div>
+			<div id="cat_8" class="gridItem" onclick="selectCateg(this, 'BOOKS');">
+			    <img class="catIcon" src="books.png">
+				<label class="icon">BOOKS</label>
+			</div>
+			<div id="cat_9" class="gridItem" onclick="selectCateg(this, 'OTHERS');">
+			    <img class="catIcon" src="other.png">
+				<label class="icon">OTHERS</label>
+		    </div>
+		</div>
+	</div>
+</body>
+<script src="main.js"></script>
+</html>
