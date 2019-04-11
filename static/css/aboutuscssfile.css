@@ -1,0 +1,62 @@
+.ourStoryContClass
+{
+	background-color: #b4e6f1;
+	color: #000000;
+	font-size: 15px;
+	text-decoration: none;
+	font-family:segoe ui;
+	font-weight: 20px;
+	padding:10px 30px 10px 30px;
+}
+.ourStoryHeading
+{
+	color: #000000;
+	font-size: 3vw;
+	text-decoration: none;
+	font-family:segoe ui;
+	font-weight: 20px;
+}
+.newAAgeHeading
+{
+	color: black;
+	font-size: 3vw;
+	text-decoration: none;
+	font-family:segoe ui;
+	font-weight: 20px;
+}
+.newAgeOfMaroonCont
+{	
+	color: black;
+	background-color:#33333375; 
+	font-size: 15px;
+	text-decoration: none;
+	font-family:segoe ui;
+	font-weight: 20px;
+	padding:10px 30px 10px 30px;
+}
+.slideshowmaincont
+{	
+	 
+}
+.mySlides
+{	
+	width:100%;
+}
+.ResultContClass
+{
+	background-color: #b7e5ef;
+	color: #092e46;
+	font-size: 15px;
+	text-decoration: none;
+	font-family:segoe ui;
+	font-weight: 20px;
+	padding:10px 30px 10px 30px;
+}
+.ResultHeading
+{
+	color: black;
+	font-size: 3vw;
+	text-decoration: none;
+	font-family:segoe ui;
+	font-weight: 20px;
+}
