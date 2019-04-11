@@ -1,14 +1,14 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title></title>
-	<link rel="stylesheet" type="text/css" href="loginFile.css">
-</head>
-<body>
+{% extends "layout.html"%}
+
+{% block head %}{{ super() }}{% endblock %}
+
+{% block header %}{{ super() }}{% endblock %}
+
+{% block content %}
 <div class="mainContainer">
 	<div class="mainImageContainer">
 		<div class="imageConatiner">
-			<center><img src="logoNew.png" class="logoImage"></center>
+			<center><img src="{{ url_for('static', filename='images/logoNew.png')}}" class="logoImage"></center>
 		</div>
 	</div>
 </div>
@@ -29,17 +29,10 @@
 				<button type="submit" class="submitBtn" >Sign in</button>
 			</div>
 				<div class="newToMaroon">
-		<p>New to Maroon? <a href="signup.html" style="text-decoration: none;">Create an account</a></p>
+		<p>New to Maroon? <a href="signup" style="text-decoration: none;">Create an account</a></p>
 	</div>
 		</form>
 	</div>
-
 </div>
-<div class="footer">
-	<a href="#terms">Terms</a>
-	<a href="#privacy">Privacy</a>
-	<a href="#security">Security</a>
-	<a href="#contact">Contact Maroon</a>
-</div>
-</body>
-</html>
+{% endblock %}
+{% block footer %}{{super()}}{% endblock %}
