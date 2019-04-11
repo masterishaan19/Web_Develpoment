@@ -469,3 +469,78 @@ body{
     color:white;
 	font-size:20px;
 }
+.msg p{
+    position:absolute;
+    right:10px;
+    margin:15px;
+    background-color:black;
+    color:white;
+    padding:5px 6px;
+    border-radius:6px;
+    border:1px solid orange;
+    opacity:1;
+    word-spacing: 4px;
+  }
+  .ourStoryContClass
+{
+    margin-top:50px;
+	background-color: #b4e6f1;
+	color: #000000;
+	font-size: 15px;
+	text-decoration: none;
+	font-family:segoe ui;
+	font-weight: 20px;
+	padding:10px 30px 10px 30px;
+}
+.ourStoryHeading
+{
+	color: #000000;
+	font-size: 3vw;
+	text-decoration: none;
+	font-family:segoe ui;
+	font-weight: 20px;
+}
+.newAAgeHeading
+{
+	color: black;
+	font-size: 3vw;
+	text-decoration: none;
+	font-family:segoe ui;
+	font-weight: 20px;
+}
+.newAgeOfMaroonCont
+{	
+	color: black;
+	background-color:#33333375; 
+	font-size: 15px;
+	text-decoration: none;
+	font-family:segoe ui;
+	font-weight: 20px;
+	padding:10px 30px 10px 30px;
+}
+.slideshowmaincont
+{	
+	 
+}
+.mySlides
+{	
+	width:100%;
+}
+.ResultContClass
+{
+	background-color: #b7e5ef;
+	color: #092e46;
+	font-size: 15px;
+	text-decoration: none;
+	font-family:segoe ui;
+	font-weight: 20px;
+	padding:10px 30px 10px 30px;
+}
+.ResultHeading
+{
+	color: black;
+	font-size: 3vw;
+	text-decoration: none;
+	font-family:segoe ui;
+	font-weight: 20px;
+}

@@ -1,10 +1,10 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title></title>
-	<link rel="stylesheet" type="text/css" href="myProfileFile.css">
-</head>
-<body >
+{% extends "layout.html"%}
+
+{% block head %}{{ super() }}{% endblock %}
+
+{% block header %}{{ super() }}{% endblock %}
+
+{% block content %}
 <div class="mainContainer">
 	<div class="myProfileContainer">
 		<h1 class="myProfileText">MY PROFILE</h1>
@@ -35,5 +35,5 @@
 		<div class="emptyDiv">egrg</div>
 	</div>
 </div>
-</body>
-</html>
+{% endblock %}
+{% block footer %}{{super()}}{% endblock %}

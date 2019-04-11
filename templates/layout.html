@@ -7,7 +7,7 @@
 	<script src="{{ url_for('static', filename='js/main.js')}}"></script>
 </head>
 {% endblock %}
-<body>
+<body onload="setTimeout(Timer, 2000)">
 	{% block header %}
 	<header>
 		<div class="container">
@@ -15,7 +15,7 @@
 				<li class="navItems" style="float: left;"><img src="{{ url_for('static', filename='images/maroonLogo.png')}}" style="width: 20vw;"></li>
 				<div class="dinvew" style="margin-left: 60%;">
 					<li class="navItems temp"><a href="/">HOME</a></li>
-					<li class="navItems temp"><a href="#aboutUsPage">ABOUT US</a></li>
+					<li class="navItems temp"><a href="about">ABOUT US</a></li>
 					<li class="navItems temp"><a href="#buySellPage">BUY/SELL</a></li>
 					<li class="navItems temp"><a href="login">LOGIN/SIGNUP</a></li>
 					<li class="navItems temp"><a href="#contactUSPage">CONTACT US</a></li>
@@ -35,6 +35,15 @@
 			</ul>
 		</div>
 	</header>
+	<div class="msg">
+		{% with messages = get_flashed_messages() %}
+		  {% if messages %}
+				{% for message in messages %}
+				<p id="msg">{{ message }}</p>
+				{% endfor %}
+		  {% endif %}
+	   {% endwith %}
+    </div>
 	{% endblock %}
 	{% block content %}
 	{% endblock %}
