@@ -1,0 +1,35 @@
+.sell{
+    border: 5px solid white;
+    width: fit-content;
+    margin: auto;
+    margin-top:10%;
+    border-radius: 5px;
+    box-shadow: 1px 3px 5px 5px #999999;
+}
+#sellhead{
+	text-align: center;;
+	font-family: segoe ui;
+}
+.inputbox{
+    color: rebeccapurple;
+    height: 100px;
+    width: 300px;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+.inputBox{
+    color: rebeccapurple;
+    height: 50px;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+.label{
+    size: 15px;
+    color: red;
+       padding: 10px;
+    margin: 10px;
+}
