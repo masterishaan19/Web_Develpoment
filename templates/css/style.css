@@ -1,0 +1,41 @@
+.legend{
+	border: 2px blue;
+	border-radius: 5px;
+	color: rgb(0,0,0);
+	font-weight: bold;
+	font-style: italic;
+	text-decoration: all;
+	font-weight: bold;
+	font-style: italic;
+	text-decoration: all;
+}
+.signup{
+	border: 10px black;
+	color: black;
+	text-shadow: 2px;
+	background: rgba(0,0,0,0.0);
+	border-radius: 100px;
+
+}
+fieldset{
+	width: 250px;
+}
+input{
+	border-radius: 5px;
+	width: 275px;
+	padding: 5px;
+	margin-top: 0px;
+	border:1px solid gray;
+}
+input:hover{
+	background-color: rgba(130,207,242,0.2);
+	outline: 2px solid yellow;
+	cursor: auto;
+	border-radius: 5px;
+}
+input:focus{
+	outline: 2px groove#79B0E0;
+	border-radius: 5spx;
+	box-shadow: 15px;
+	border:2px groove gray;
+}

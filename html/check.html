@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		body
+		{
+			margin-top: 0px;
+		}
+		.container
+		{
+			background-color: black;
+		}
+		.unlist
+		{
+			list-style-type: none;
+		}
+		.navItems a
+		{
+			display: inline-block;
+			text-decoration: none;
+		}
+		.navItems
+		{
+			display: inline-block;
+			height: 5vw;
+			text-align: center;
+			margin-right: 3px;
+			
+		}
+		.temp
+		{
+			margin-right: 4px;
+		}
+		.temp a
+		{
+			padding-top:2vw;
+			color: white;
+			padding-right: 1vw;
+			font-size: 1.1vw;
+		}
+		.temp a:hover
+		{
+			color:yellow;
+		}
+		.dropImage
+		{
+			position: fixed;
+			left:90%;
+			width: 5%;
+			top:2.5%;
+			display: none;
+		}
+		@media screen and (max-width: 900px)
+		{
+			.navItems a
+			{
+				display: none;
+			}
+			.dropImage
+			{
+				display: block;
+			}
+			.mobile_icon span
+			{
+				display: block;
+				position: absolute;
+				height: 5px;
+				width: 25px;
+				opacity: 1;
+				left: 5px;
+				background-color: red;
+			}
+			#mobile_icon
+			{
+				float: right;
+				right: 13px;
+				border-color: 5px solid red;
+				display: block;
+				top: -45px;
+			}
+			#mobile_icon
+			{
+				border-radius: 0px;
+				position: relative;
+				box-sizing: border-box;
+				text-decoration: none;
+				cursor: pointer;
+				width: 34px;
+				height: 34px;
+				border: 1px solid black;
+				z-index: 999;
+				background-color: green;
+			}
+			.logoImage
+			{
+				width: 37px;
+			}
+		}
+	</style>
+</head>
+<body>
+<div class="container">
+	<ul class="unlist">
+		<li class="navItems  style="float: left;"><img src="logo2.png" class = "logoImage" style="width: 22vw;"></li>
+		<div class="dinvew" style="margin-left: 60%;">
+		<li class="navItems temp" ><a href="#homePage">HOME</a></li>
+		<li class="navItems temp"><a href="#aboutUsPage">ABOUT US</a></li>
+		<li class="navItems temp"><a href="#buySellPage">BUY/SELL</a></li>
+		<li class="navItems temp"><a href="#loginSignupPage">LOGIN/SIGNUP</a></li>
+		<li class="navItems temp"><a href="#contactUSPage">CONTACT US</a></li>
+		</div>
+	</ul>
+
+</div>
+	<div class="fixedImage">
+		<article id="mobile_icon" class="mobile_icon">
+			<span></span>
+			<span></span>
+			<span></span>
+			<span></span>
+		</article>
+	</div>
+</body>
+</html>
