@@ -26,12 +26,14 @@
 			margin-right: 4px;
 		}
 		.temp a
-		{
+		{	
+			font-weight: 10px;
 			padding-top:2vw;
 			color: #000000;
 			padding-right: 1vw;
 			font-size: 1.1vw;
 			font-family:segoe ui;
+
 		}
 		.temp a:hover
 		{
@@ -102,12 +104,13 @@
 		.find_usCont
 		{	
 
-			height: 400px;
+			height: 25vw;
 			width: 100%;
+			min-height: 300px;
 		}
 		.findElseTextCont
 		{
-			padding-top: 5px;
+			padding-top: 4px;
 		}
 		.findElseText
 		{
@@ -117,17 +120,17 @@
 			font-weight: 30px;
 			color: white;
 			font-size: 30px;
+			margin-bottom: 5vw;
 		}
 		.fbCont ,.playstoreCont, .likedinCont, .twitterCont
 		{
-			float: left;
 			background-color:white;
-			width: 70px;
-			height:70px;
+			width: 5vw;
+			height:5vw;
 			border-radius: 100%; 
-			margin-right:7vw ;
-			margin-left:10vw ;
-			display: inline;
+			margin-top: :5.5vw;
+			margin-left: 2vw;
+			margin-right: 2vw; 
 		}
 		.fbCont:hover ,.playstoreCont:hover, .likedinCont:hover, .twitterCont:hover 
 		{
@@ -138,8 +141,17 @@
 		.fbImg
 		{
 			margin:auto; 
-			padding-top:15px;
+			padding-top:1vw;
+			height: 3vw;
+			width: 3vw;
 			
+		}
+		.medium
+		{
+			position: relative;
+			display: inline-block;
+			margin-right: 8vw;
+			margin-left: 5vw;
 		}
 		.imgText
 		{
@@ -150,4 +162,16 @@
 			text-align: center;
 			font-weight: 20px;
 
+		}
+		.allrights
+		{
+			float:right;
+			margin-top: 1vw;
+			margin-right: 10px;
+			color: white;
+			font-size: 1vw;
+			text-decoration: none;
+			font-family:segoe ui;
+			text-align: center;
+			font-weight: 20px;
 		}
