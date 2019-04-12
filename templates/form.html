@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="loginFile.css">
+	<script type="text/javascript" src="loginJsFile.js"></script>
+</head>
+<body>
+<div class="mainContainer2">
+		<div class="loginForm">
+			<form name="myForm" onsubmit="return validateForm()" method="post">
+					
+					<div class="formBox3" style="margin-bottom: 10px;">
+					<div class="formBox1">
+						<center><h2>Post your Ad</h2></center>
+					</div>
+						<label >Categories</label><br>
+		            		<select class="formBox3">           
+				                <option>--None--</option>
+				                <option>CARS</option>
+				                <option>JOBS</option>
+				                <option>BIKES</option>
+				                <option>BOOKS</option>
+				                <option>PROPERTIES</option>
+				                <option>FURNITURE</option>
+				                <option>FLATS & HOUSES</option>
+				                <option>ELECTRONICS & APPLIANCES</option>
+				                <option>OTHERS</option>
+		            		</select>
+
+						<label for="ProdName">Product Name</label>
+
+						<input type="text" name="ProdName" required="required"><br>
+						<label for="Description">
+							Description
+						</label><br>
+						<textarea class="textarea" name="Description" required="required" rows="4" cols="52"></textarea><br>
+						<label for="yrofpurchase">Year of Purchase</label>
+						<input type="month" name="yrofpurchase" required="required"><br>
+						<label for="price" >Price</label>
+						<input type="number" name="price" required="required"><br><br>
+						<label for="image" >Image of Product</label>
+						<input type="file" name="image" required="required" style="width: 100%;height: 30px; font-family: segoe ui;padding: 0px; margin-left: -100px;"><br>
+						<button type="submit" class="submitBtn">Post Ad</button>
+					</div>
+			</form>
+		</div>
+
+</div>
+<div class="footer">
+	<a href="#terms">Terms</a>
+	<a href="#privacy">Privacy</a>
+	<a href="#security">Security</a>
+	<a href="#contact">Contact Maroon</a>
+</div>
+</body>
+</html>
