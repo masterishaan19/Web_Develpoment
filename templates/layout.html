@@ -46,6 +46,50 @@
     </div>
 	{% endblock %}
 	{% block content %}
+	<div id="buySell">
+		<div id="mainCategory">
+		    <label id="choose" >CHOOSE A CATEGORY</label>
+		    <label class="chng" onclick="goBack();">CHANGE</label>
+		</div>
+		<div id="categories">
+			<div id="cat_1" class="gridItem" onclick="selectCateg(this, 'PPROPERTIES');">
+				<img class="catIcon" src="{{url_for('static', filename='images/property.png')}}">
+				<label class="icon">PROPERTIES</label>
+			</div>
+			<div id="cat_2" class="gridItem" onclick="selectCateg(this, 'CARS');">
+				<img class="catIcon" src="{{url_for('static', filename='images/cars.png')}}">
+				<label class="icon">CARS</label>
+			</div>
+			<div id="cat_3" class="gridItem" onclick="selectCateg(this, 'FURNITURE');">
+				<img class="catIcon" src="{{url_for('static', filename='images/furni.png')}}">
+				<label class="icon">FURNITURE</label>
+			</div>
+			<div id="cat_4" class="gridItem" onclick="selectCateg(this, 'JOBS');">
+				<img class="catIcon" src="{{url_for('static', filename='images/job.png')}}">
+				<label class="icon">JOBS</label>
+		    </div>
+			<div id="cat_5" class="gridItem" onclick="selectCateg(this, 'ELECTRONICS & APPLIANCES');">
+                <img class="catIcon" src="{{url_for('static', filename='images/electronic.png')}}">
+				<label class="icon">ELECTRONICS &<br> APPLIANCES</label>
+			</div>
+			<div id="cat_6" class="gridItem" onclick="selectCateg(this, 'MOBILES');">
+				<img class="catIcon" src="{{url_for('static', filename='images/mobile.png')}}">
+				<label class="icon">MOBILES</label>
+			    </div>
+			<div id="cat_7" class="gridItem" onclick="selectCateg(this, 'BIKES');">
+			    <img class="catIcon" src="{{url_for('static', filename='images/bike.png')}}">
+				<label class="icon">BIKES</label>
+			</div>
+			<div id="cat_8" class="gridItem" onclick="selectCateg(this, 'BOOKS');">
+			    <img class="catIcon" src="{{url_for('static', filename='images/books.png')}}">
+				<label class="icon">BOOKS</label>
+			</div>
+			<div id="cat_9" class="gridItem" onclick="selectCateg(this, 'OTHERS');">
+			    <img class="catIcon" src="{{url_for('static', filename='images/other.png')}}">
+				<label class="icon">OTHERS</label>
+		    </div>
+		</div>
+	</div>
 	{% endblock %}
 	{% block footer %}
 	<footer>
